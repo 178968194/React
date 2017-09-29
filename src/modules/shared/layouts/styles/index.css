@@ -1,0 +1,87 @@
+.head{
+	background: #f5f5f5;
+	color: #333;
+	font-size: 14px;
+	height: 40px;
+}
+
+.head span{
+    display: inline-block;
+}
+
+.head .title{
+	padding: 10px;
+	font-size: 20px;
+}
+.head button{
+	float: right;
+	margin: 10px;
+}
+
+.nav-Menu{
+	width: 100%;
+}
+
+.container{
+	height: calc(100% - 40px);
+    padding-bottom: 44px;
+    overflow: auto;
+}
+
+.tabItem{
+	border-bottom: 1px solid #f1ebeb;
+	padding: 10px 0;
+}
+
+.tabMenu{
+	width: 30%;
+    text-align: center;
+    border: 1px solid #f1ebeb;
+    float: right;
+    background-color: #fff;
+	margin-top: 5px;
+}
+
+.buyBtn{
+	padding: 0 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+	width: 32px;
+	height: 32px;
+	background: url('static/resource/more.png') no-repeat;
+}
+
+.headTitle{
+	padding: 6px;
+    font-size: 16px;
+    color: #333;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.up{
+	padding: 0 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+	width: 32px;
+	height: 32px;
+	background: url('static/resource/up.png') no-repeat;
+}
+
+.arrow{
+	padding: 0 20px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+	width: 32px;
+	height: 32px;
+	background: url('static/resource/left.png') no-repeat;
+}
+
+.productContainer{
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #f1ebeb;
+}

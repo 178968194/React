@@ -1,0 +1,55 @@
+.head{
+	background: #f5f5f5;
+	font-size: 14px;
+	padding: 8px;
+}
+
+.description {
+	width: 66%;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #bfbfbf;
+}
+
+.price span{
+	padding: 10px 0;
+	color: #108ee9;
+	display: inline-block;
+}
+
+.title{
+	color: #333;
+    border-bottom: 1px solid #f1ebeb;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.buyBtn{
+	display: inline-block;
+	float: right;
+    padding: 0 20px;
+}
+
+.price{
+	display: inline-block;
+	font-size: 15px;
+}
+
+.product{
+	padding: 10px;
+	border-bottom: 1px solid #f1ebeb;
+}
+
+.headTitle{
+	padding: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+	color: #333;
+}
+.btn{
+	display: inline-block;
+	float: right;
+    padding: 0 20px;
+}

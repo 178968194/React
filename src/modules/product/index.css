@@ -1,0 +1,75 @@
+.head{
+	background: #108ee9;
+	color: #fff;
+	font-size: 14px;
+}
+
+.add-head{
+	background: #108ee9;
+	color: #fff;
+	position: relative;
+}
+.add-title, .add-title-info{
+	font-size: 20px;
+	display: block;
+  padding: 8px;
+}
+.head span{
+    display: inline-block;
+}
+
+.head .title{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.head button{
+	float: right;
+	margin: 10px;
+}
+
+.add-head button{
+	float: right;
+  margin: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  font-size: 16px;
+}
+
+.nav-Menu{
+	width: 100%;
+}
+
+.RadioGroup{
+	width: 100%;
+}
+
+.container{
+	  height: calc(100% - 40px);
+    padding-bottom: 44px;
+    overflow: auto;
+}
+
+.add-title{
+	text-align: center;
+}
+
+.add-title:before{
+		display: inline-block;
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url('../../images/right-arrow.png') no-repeat;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
